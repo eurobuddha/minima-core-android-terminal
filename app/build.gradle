@@ -10,8 +10,9 @@ android {
         applicationId "org.minimarex.terminal"
         minSdk 28
         targetSdk 35
-        versionCode 2
-        versionName "1.1"
+        // 1.1/vc2 is taken by the upstream (Spartacus-signed) refresh already in PandaApps
+        versionCode 3
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
