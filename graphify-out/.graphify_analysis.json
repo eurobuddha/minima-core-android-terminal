@@ -1,0 +1,255 @@
+{
+  "communities": {
+    "0": [
+      "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver",
+      "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_context",
+      "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_override",
+      "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver",
+      "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_context",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_deleteoldmessages",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_getallmessages",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_insertevent",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_isopen",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_receiverdb",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_reopen",
+      "broadcastreceiver",
+      "cursor",
+      "intent",
+      "jsonarray",
+      "jsonobject",
+      "sqliteopenhelper"
+    ],
+    "1": [
+      "app_src_main_java_org_minimarex_terminal_terminaladapter",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_java_view",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_destroyitem",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getcount",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_instantiateitem",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_isviewfromobject",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshallviews",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshpagerview",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_terminaladapter",
+      "pageradapter",
+      "viewgroup"
+    ],
+    "2": [
+      "app_src_main_java_org_minimarex_terminal_terminalview",
+      "app_src_main_java_org_minimarex_terminal_terminalview_java_activity",
+      "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi",
+      "app_src_main_java_org_minimarex_terminal_terminalview_java_textview",
+      "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
+      "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext",
+      "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_runcmd",
+      "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_setminimaapi",
+      "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_terminalview",
+      "edittext",
+      "scrollview"
+    ],
+    "3": [
+      "app_src_main_java_org_minimarex_terminal_mainactivity",
+      "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi",
+      "app_src_main_java_org_minimarex_terminal_mainactivity_java_override",
+      "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
+      "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate",
+      "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_ondestroy",
+      "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getterminalview",
+      "appcompatactivity",
+      "bundle",
+      "viewpager"
+    ],
+    "4": [
+      "app_src_main_java_org_minimarex_terminal_baseview",
+      "app_src_main_java_org_minimarex_terminal_baseview_baseview",
+      "app_src_main_java_org_minimarex_terminal_baseview_baseview_baseview",
+      "app_src_main_java_org_minimarex_terminal_baseview_baseview_getactivity",
+      "app_src_main_java_org_minimarex_terminal_baseview_baseview_getmainview",
+      "app_src_main_java_org_minimarex_terminal_baseview_baseview_refreshview",
+      "app_src_main_java_org_minimarex_terminal_baseview_java_activity",
+      "app_src_main_java_org_minimarex_terminal_baseview_java_view"
+    ],
+    "5": [
+      "app_src_main_java_org_minimarex_terminal_logsview",
+      "app_src_main_java_org_minimarex_terminal_logsview_java_activity",
+      "app_src_main_java_org_minimarex_terminal_logsview_java_override",
+      "app_src_main_java_org_minimarex_terminal_logsview_java_textview",
+      "app_src_main_java_org_minimarex_terminal_logsview_logsview",
+      "app_src_main_java_org_minimarex_terminal_logsview_logsview_logsview",
+      "app_src_main_java_org_minimarex_terminal_logsview_logsview_refreshview",
+      "app_src_main_java_org_minimarex_terminal_logsview_logsview_setmaintext"
+    ],
+    "6": [
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_override",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_oncreate",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_ondowngrade",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_onupgrade",
+      "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb",
+      "sqlitedatabase"
+    ],
+    "7": [
+      "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest",
+      "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest",
+      "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
+      "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_java_test",
+      "runwith"
+    ],
+    "8": [
+      "gradlew",
+      "gradlew__entry",
+      "gradlew_die",
+      "gradlew_save",
+      "gradlew_warn"
+    ],
+    "9": [
+      "app_src_test_java_org_minimarex_terminal_exampleunittest",
+      "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest",
+      "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest_addition_iscorrect",
+      "app_src_test_java_org_minimarex_terminal_exampleunittest_java_test"
+    ],
+    "10": [
+      "app_build"
+    ],
+    "11": [
+      "app_release_baselineprofiles_0_app_release"
+    ],
+    "12": [
+      "app_release_baselineprofiles_1_app_release"
+    ],
+    "13": [
+      "build"
+    ],
+    "14": [
+      "settings"
+    ]
+  },
+  "cohesion": {
+    "0": 0.17142857142857143,
+    "1": 0.24358974358974358,
+    "2": 0.32727272727272727,
+    "3": 0.3333333333333333,
+    "4": 0.42857142857142855,
+    "5": 0.35714285714285715,
+    "6": 0.6,
+    "7": 0.6,
+    "8": 0.6,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
+      "label": "ReceiverDB",
+      "degree": 19
+    },
+    {
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
+      "label": "TerminalAdapter",
+      "degree": 13
+    },
+    {
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
+      "label": "TerminalView",
+      "degree": 12
+    },
+    {
+      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
+      "label": "BaseView",
+      "degree": 10
+    },
+    {
+      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
+      "label": "MainActivity",
+      "degree": 8
+    },
+    {
+      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
+      "label": "LogsView",
+      "degree": 7
+    },
+    {
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver",
+      "label": "MinimaNotifyReceiver",
+      "degree": 4
+    },
+    {
+      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest",
+      "label": "ExampleInstrumentedTest",
+      "degree": 3
+    },
+    {
+      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest",
+      "label": "ExampleUnitTest",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "LogsView",
+      "target": "BaseView",
+      "source_files": [
+        "app/src/main/java/org/minimarex/terminal/LogsView.java",
+        "app/src/main/java/org/minimarex/terminal/BaseView.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "TerminalAdapter",
+      "target": "BaseView",
+      "source_files": [
+        "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
+        "app/src/main/java/org/minimarex/terminal/BaseView.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "TerminalView",
+      "target": "BaseView",
+      "source_files": [
+        "app/src/main/java/org/minimarex/terminal/TerminalView.java",
+        "app/src/main/java/org/minimarex/terminal/BaseView.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "LogsView",
+      "target": "ReceiverDB",
+      "source_files": [
+        "app/src/main/java/org/minimarex/terminal/LogsView.java",
+        "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "MainActivity",
+      "target": "TerminalAdapter",
+      "source_files": [
+        "app/src/main/java/org/minimarex/terminal/MainActivity.java",
+        "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

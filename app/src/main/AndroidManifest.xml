@@ -2,8 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- allowBackup=false: the whole apks/ fleet was scaffolded with allowBackup="true" and empty backup
+         rules, so Android Auto Backup uploaded each app's entire data directory to the user's cloud and
+         restored it on reinstall. Harmless-looking apps still carried the node pairing token, and a
+         reinstall must be a true reset everywhere, not just in the apps holding keys.
+         At stake here: minimaevents.db, the node event log, plus the shared minima_api_prefs pairing token. No command history
+         is stored here (unlike Terminal IDE), but none of it should be restored onto a different node -->
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/terminal"

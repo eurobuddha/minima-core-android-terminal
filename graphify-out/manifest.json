@@ -1,0 +1,82 @@
+{
+  "app/build.gradle": {
+    "mtime": 1784651243.791578,
+    "ast_hash": "0cdee1f090caaf0cc81301c44a5acde4",
+    "semantic_hash": "0cdee1f090caaf0cc81301c44a5acde4"
+  },
+  "app/release/baselineProfiles/0/app-release.dm": {
+    "mtime": 1782212552.3392704,
+    "ast_hash": "5ca2677ee15d10c497782f033bc5ad73",
+    "semantic_hash": "5ca2677ee15d10c497782f033bc5ad73"
+  },
+  "app/release/baselineProfiles/1/app-release.dm": {
+    "mtime": 1782212552.339373,
+    "ast_hash": "9c027415a4f650554e973cfefd7b7838",
+    "semantic_hash": "9c027415a4f650554e973cfefd7b7838"
+  },
+  "app/release/output-metadata.json": {
+    "mtime": 1782212552.339435,
+    "ast_hash": "f02fbb83be216ab12bd6de505bee73be",
+    "semantic_hash": "f02fbb83be216ab12bd6de505bee73be"
+  },
+  "app/src/androidTest/java/org/minimarex/terminal/ExampleInstrumentedTest.java": {
+    "mtime": 1782212552.3397539,
+    "ast_hash": "2bf5830c2c394398d3e4e0996b993203",
+    "semantic_hash": "2bf5830c2c394398d3e4e0996b993203"
+  },
+  "app/src/main/java/org/minimarex/terminal/BaseView.java": {
+    "mtime": 1782212552.3400521,
+    "ast_hash": "5721c880bff94cbc3832d8e6325f8329",
+    "semantic_hash": "5721c880bff94cbc3832d8e6325f8329"
+  },
+  "app/src/main/java/org/minimarex/terminal/LogsView.java": {
+    "mtime": 1782212552.3401108,
+    "ast_hash": "8e48c6894cafdf786443768f71dc98b5",
+    "semantic_hash": "8e48c6894cafdf786443768f71dc98b5"
+  },
+  "app/src/main/java/org/minimarex/terminal/MainActivity.java": {
+    "mtime": 1782212552.3401723,
+    "ast_hash": "a4cfc1e19208a5525389e20d9f973e53",
+    "semantic_hash": "a4cfc1e19208a5525389e20d9f973e53"
+  },
+  "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java": {
+    "mtime": 1782212552.3402243,
+    "ast_hash": "a8b4229465eb4f4367e451672915fe9f",
+    "semantic_hash": "a8b4229465eb4f4367e451672915fe9f"
+  },
+  "app/src/main/java/org/minimarex/terminal/TerminalView.java": {
+    "mtime": 1782212552.3403351,
+    "ast_hash": "0a53cbb50b7f1cbd78a613dfe43bc33f",
+    "semantic_hash": "0a53cbb50b7f1cbd78a613dfe43bc33f"
+  },
+  "app/src/main/java/org/minimarex/terminal/receiver/MinimaNotifyReceiver.java": {
+    "mtime": 1782212552.3404188,
+    "ast_hash": "8542b059f391e34ca789df2e48728931",
+    "semantic_hash": "8542b059f391e34ca789df2e48728931"
+  },
+  "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java": {
+    "mtime": 1782212552.3404744,
+    "ast_hash": "b1184aac9c69e6cd290faf5a24c8284f",
+    "semantic_hash": "b1184aac9c69e6cd290faf5a24c8284f"
+  },
+  "app/src/test/java/org/minimarex/terminal/ExampleUnitTest.java": {
+    "mtime": 1782212552.344539,
+    "ast_hash": "058116592e2e0ebdd7fc0150d22f0be0",
+    "semantic_hash": "058116592e2e0ebdd7fc0150d22f0be0"
+  },
+  "build.gradle": {
+    "mtime": 1782212552.3445952,
+    "ast_hash": "583193a3771192898c84ddef2d926224",
+    "semantic_hash": "583193a3771192898c84ddef2d926224"
+  },
+  "gradlew": {
+    "mtime": 1782212552.3670435,
+    "ast_hash": "02c16663c6f0aa37f98d94d698c22b8c",
+    "semantic_hash": "02c16663c6f0aa37f98d94d698c22b8c"
+  },
+  "settings.gradle": {
+    "mtime": 1782212552.3688815,
+    "ast_hash": "e79fa2e0b2aec23a234dba74bc400f8a",
+    "semantic_hash": "e79fa2e0b2aec23a234dba74bc400f8a"
+  }
+}
