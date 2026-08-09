@@ -19,3 +19,18 @@ substitute your own idea for what the user told you to do.
 
 When your instinct conflicts with the user's instruction, follow the instruction. Ignoring it wastes the user's time,
 tokens, and money, and is the most serious mistake you can make.
+
+## Remotes — `origin` is the fork, `upstream` is Spartacus
+
+This repo is a copy of an upstream project that this account cannot write to. As of 2026-08-09 the remotes
+follow the normal convention:
+
+- **`origin`** → `eurobuddha/minima-core-android-terminal` — the fork. Writable. `master` tracks it, so a
+  plain `git push` lands here.
+- **`upstream`** → `spartacusrex-minima/minima-core-android-terminal` — read-only. Fetch from it to pick up
+  Spartacus's changes; pushing returns 403.
+
+They used to be the other way round (`origin` = upstream, a second remote `fork` = ours), which silently
+403'd every push and stranded five commits locally — including a security fix — until someone checked
+`git remote -v`. Remote names live in `.git/config` and are NOT tracked by git, so a fresh clone will NOT
+inherit this layout: whoever clones next must set it up again, which is why it is written down here.
