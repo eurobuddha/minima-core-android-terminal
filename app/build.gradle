@@ -16,6 +16,21 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs {
+        // Minima family release key. Credentials come from ~/.gradle/gradle.properties
+        // (outside every repo), so nothing secret is ever committed. On a machine without
+        // those props this config stays empty and release falls back to debug signing.
+        release {
+            def ksFile = project.findProperty('MINIMA_FAMILY_RELEASE_STORE_FILE')
+            if (ksFile != null) {
+                storeFile file(ksFile)
+                storePassword project.findProperty('MINIMA_FAMILY_RELEASE_STORE_PASSWORD')
+                keyAlias project.findProperty('MINIMA_FAMILY_RELEASE_KEY_ALIAS')
+                keyPassword project.findProperty('MINIMA_FAMILY_RELEASE_KEY_PASSWORD')
+            }
+        }
+    }
+
 
     buildTypes {
         release {
@@ -25,7 +40,7 @@ android {
             // IPC is authorized by the MINIMA_ID token, not by signature, so this is sufficient
             // for sideloading. NB: the original dist/terminal-1.0.apk is Spartacus Rex-signed -
             // updating an installed copy of that requires uninstall first.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
