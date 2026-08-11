@@ -1,7 +1,7 @@
 {
   "app/build.gradle": {
-    "mtime": 1786273883.7778614,
-    "ast_hash": "7f7ed526acfe3a7c432f0b6c87d2ad95",
+    "mtime": 1786444403.7318592,
+    "ast_hash": "a4399dcc0005c812770549138438a00a",
     "semantic_hash": ""
   },
   "app/release/baselineProfiles/0/app-release.dm": {
@@ -80,8 +80,8 @@
     "semantic_hash": "e79fa2e0b2aec23a234dba74bc400f8a"
   },
   "CLAUDE.md": {
-    "mtime": 1784124679.076277,
-    "ast_hash": "4439d09bc81851d89f9ffcecc4136dcf",
+    "mtime": 1786313706.7405493,
+    "ast_hash": "eec71d774d0e478babf1c831e8ec9264",
     "semantic_hash": ""
   },
   "README.md": {

@@ -4,14 +4,59 @@
   "graph": {},
   "nodes": [
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 6,
+      "community_name": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_user_instructions_authoritative_these_override_default_behavior_and_must_be_followed_exactly",
+      "community": 6,
+      "community_name": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "norm_label": "user instructions \u2014 authoritative. these override default behavior and must be followed exactly."
+    },
+    {
+      "label": "RULE 0 (highest priority) \u2014 Follow the user's explicit instructions. They are BLOCKING, not suggestions.",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "claude_rule_0_highest_priority_follow_the_user_s_explicit_instructions_they_are_blocking_not_suggestions",
+      "community": 6,
+      "community_name": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "norm_label": "rule 0 (highest priority) \u2014 follow the user's explicit instructions. they are blocking, not suggestions."
+    },
+    {
+      "label": "Remotes \u2014 `origin` is the fork, `upstream` is Spartacus",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "claude_remotes_origin_is_the_fork_upstream_is_spartacus",
+      "community": 6,
+      "community_name": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "norm_label": "remotes \u2014 `origin` is the fork, `upstream` is spartacus"
+    },
+    {
       "label": "app/build.gradle",
       "file_type": "code",
       "source_file": "app/build.gradle",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_build",
       "community": 10,
-      "norm_label": "app/build.gradle"
+      "norm_label": "app/build.gradle",
+      "id": "app_build",
+      "community_name": "app/build.gradle"
     },
     {
       "label": "0/app-release.dm",
@@ -19,9 +64,10 @@
       "source_file": "app/release/baselineProfiles/0/app-release.dm",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_release_baselineprofiles_0_app_release",
       "community": 11,
-      "norm_label": "0/app-release.dm"
+      "norm_label": "0/app-release.dm",
+      "id": "app_release_baselineprofiles_0_app_release",
+      "community_name": "0/app-release.dm"
     },
     {
       "label": "1/app-release.dm",
@@ -29,9 +75,10 @@
       "source_file": "app/release/baselineProfiles/1/app-release.dm",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_release_baselineprofiles_1_app_release",
       "community": 12,
-      "norm_label": "1/app-release.dm"
+      "norm_label": "1/app-release.dm",
+      "id": "app_release_baselineprofiles_1_app_release",
+      "community_name": "1/app-release.dm"
     },
     {
       "label": "ExampleInstrumentedTest.java",
@@ -39,9 +86,10 @@
       "source_file": "app/src/androidTest/java/org/minimarex/terminal/ExampleInstrumentedTest.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest",
       "community": 7,
-      "norm_label": "exampleinstrumentedtest.java"
+      "norm_label": "exampleinstrumentedtest.java",
+      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest",
+      "community_name": "ExampleInstrumentedTest.java"
     },
     {
       "label": "ExampleInstrumentedTest",
@@ -49,9 +97,10 @@
       "source_file": "app/src/androidTest/java/org/minimarex/terminal/ExampleInstrumentedTest.java",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest",
       "community": 7,
-      "norm_label": "exampleinstrumentedtest"
+      "norm_label": "exampleinstrumentedtest",
+      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest",
+      "community_name": "ExampleInstrumentedTest.java"
     },
     {
       "label": "RunWith",
@@ -59,9 +108,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "runwith",
       "community": 7,
-      "norm_label": "runwith"
+      "norm_label": "runwith",
+      "id": "runwith",
+      "community_name": "ExampleInstrumentedTest.java"
     },
     {
       "label": ".useAppContext()",
@@ -69,9 +119,10 @@
       "source_file": "app/src/androidTest/java/org/minimarex/terminal/ExampleInstrumentedTest.java",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
       "community": 7,
-      "norm_label": ".useappcontext()"
+      "norm_label": ".useappcontext()",
+      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
+      "community_name": "ExampleInstrumentedTest.java"
     },
     {
       "label": "Test",
@@ -79,9 +130,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_java_test",
       "community": 7,
-      "norm_label": "test"
+      "norm_label": "test",
+      "id": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_java_test",
+      "community_name": "ExampleInstrumentedTest.java"
     },
     {
       "label": "BaseView.java",
@@ -89,9 +141,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/BaseView.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_baseview",
       "community": 4,
-      "norm_label": "baseview.java"
+      "norm_label": "baseview.java",
+      "id": "app_src_main_java_org_minimarex_terminal_baseview",
+      "community_name": "BaseView"
     },
     {
       "label": "BaseView",
@@ -99,9 +152,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/BaseView.java",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
       "community": 4,
-      "norm_label": "baseview"
+      "norm_label": "baseview",
+      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
+      "community_name": "BaseView"
     },
     {
       "label": "Activity",
@@ -109,9 +163,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_baseview_java_activity",
       "community": 4,
-      "norm_label": "activity"
+      "norm_label": "activity",
+      "id": "app_src_main_java_org_minimarex_terminal_baseview_java_activity",
+      "community_name": "BaseView"
     },
     {
       "label": "View",
@@ -119,9 +174,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_baseview_java_view",
       "community": 4,
-      "norm_label": "view"
+      "norm_label": "view",
+      "id": "app_src_main_java_org_minimarex_terminal_baseview_java_view",
+      "community_name": "BaseView"
     },
     {
       "label": ".BaseView()",
@@ -129,9 +185,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/BaseView.java",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview_baseview",
       "community": 4,
-      "norm_label": ".baseview()"
+      "norm_label": ".baseview()",
+      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview_baseview",
+      "community_name": "BaseView"
     },
     {
       "label": ".getActivity()",
@@ -139,9 +196,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/BaseView.java",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getactivity",
       "community": 4,
-      "norm_label": ".getactivity()"
+      "norm_label": ".getactivity()",
+      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getactivity",
+      "community_name": "BaseView"
     },
     {
       "label": ".getMainView()",
@@ -149,9 +207,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/BaseView.java",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getmainview",
       "community": 4,
-      "norm_label": ".getmainview()"
+      "norm_label": ".getmainview()",
+      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getmainview",
+      "community_name": "BaseView"
     },
     {
       "label": ".refreshView()",
@@ -159,9 +218,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/BaseView.java",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview_refreshview",
       "community": 4,
-      "norm_label": ".refreshview()"
+      "norm_label": ".refreshview()",
+      "id": "app_src_main_java_org_minimarex_terminal_baseview_baseview_refreshview",
+      "community_name": "BaseView"
     },
     {
       "label": "LogsView.java",
@@ -169,9 +229,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/LogsView.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_logsview",
       "community": 5,
-      "norm_label": "logsview.java"
+      "norm_label": "logsview.java",
+      "id": "app_src_main_java_org_minimarex_terminal_logsview",
+      "community_name": "LogsView"
     },
     {
       "label": "LogsView",
@@ -179,9 +240,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/LogsView.java",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
       "community": 5,
-      "norm_label": "logsview"
+      "norm_label": "logsview",
+      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
+      "community_name": "LogsView"
     },
     {
       "label": "TextView",
@@ -189,9 +251,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_logsview_java_textview",
       "community": 5,
-      "norm_label": "textview"
+      "norm_label": "textview",
+      "id": "app_src_main_java_org_minimarex_terminal_logsview_java_textview",
+      "community_name": "LogsView"
     },
     {
       "label": ".LogsView()",
@@ -199,9 +262,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/LogsView.java",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview_logsview",
       "community": 5,
-      "norm_label": ".logsview()"
+      "norm_label": ".logsview()",
+      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview_logsview",
+      "community_name": "LogsView"
     },
     {
       "label": "Activity",
@@ -209,9 +273,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_logsview_java_activity",
       "community": 5,
-      "norm_label": "activity"
+      "norm_label": "activity",
+      "id": "app_src_main_java_org_minimarex_terminal_logsview_java_activity",
+      "community_name": "LogsView"
     },
     {
       "label": ".refreshView()",
@@ -219,9 +284,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/LogsView.java",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview_refreshview",
       "community": 5,
-      "norm_label": ".refreshview()"
+      "norm_label": ".refreshview()",
+      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview_refreshview",
+      "community_name": "LogsView"
     },
     {
       "label": "Override",
@@ -229,9 +295,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_logsview_java_override",
       "community": 5,
-      "norm_label": "override"
+      "norm_label": "override",
+      "id": "app_src_main_java_org_minimarex_terminal_logsview_java_override",
+      "community_name": "LogsView"
     },
     {
       "label": ".setMainText()",
@@ -239,9 +306,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/LogsView.java",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview_setmaintext",
       "community": 5,
-      "norm_label": ".setmaintext()"
+      "norm_label": ".setmaintext()",
+      "id": "app_src_main_java_org_minimarex_terminal_logsview_logsview_setmaintext",
+      "community_name": "LogsView"
     },
     {
       "label": "MainActivity.java",
@@ -249,9 +317,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/MainActivity.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_mainactivity",
       "community": 3,
-      "norm_label": "mainactivity.java"
+      "norm_label": "mainactivity.java",
+      "id": "app_src_main_java_org_minimarex_terminal_mainactivity",
+      "community_name": "MainActivity"
     },
     {
       "label": "MainActivity",
@@ -259,9 +328,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/MainActivity.java",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
       "community": 3,
-      "norm_label": "mainactivity"
+      "norm_label": "mainactivity",
+      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
+      "community_name": "MainActivity"
     },
     {
       "label": "AppCompatActivity",
@@ -269,9 +339,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "appcompatactivity",
       "community": 3,
-      "norm_label": "appcompatactivity"
+      "norm_label": "appcompatactivity",
+      "id": "appcompatactivity",
+      "community_name": "MainActivity"
     },
     {
       "label": "ViewPager",
@@ -279,9 +350,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "viewpager",
       "community": 3,
-      "norm_label": "viewpager"
+      "norm_label": "viewpager",
+      "id": "viewpager",
+      "community_name": "MainActivity"
     },
     {
       "label": "MinimaAPI",
@@ -289,9 +361,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi",
       "community": 3,
-      "norm_label": "minimaapi"
+      "norm_label": "minimaapi",
+      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi",
+      "community_name": "MainActivity"
     },
     {
       "label": ".onCreate()",
@@ -299,9 +372,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/MainActivity.java",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate",
       "community": 3,
-      "norm_label": ".oncreate()"
+      "norm_label": ".oncreate()",
+      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate",
+      "community_name": "MainActivity"
     },
     {
       "label": "Bundle",
@@ -309,9 +383,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "bundle",
       "community": 3,
-      "norm_label": "bundle"
+      "norm_label": "bundle",
+      "id": "bundle",
+      "community_name": "MainActivity"
     },
     {
       "label": "Override",
@@ -319,9 +394,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_java_override",
       "community": 3,
-      "norm_label": "override"
+      "norm_label": "override",
+      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_java_override",
+      "community_name": "MainActivity"
     },
     {
       "label": ".onDestroy()",
@@ -329,9 +405,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/MainActivity.java",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_ondestroy",
       "community": 3,
-      "norm_label": ".ondestroy()"
+      "norm_label": ".ondestroy()",
+      "id": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_ondestroy",
+      "community_name": "MainActivity"
     },
     {
       "label": "TerminalAdapter.java",
@@ -339,9 +416,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter",
       "community": 1,
-      "norm_label": "terminaladapter.java"
+      "norm_label": "terminaladapter.java",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": "TerminalAdapter",
@@ -349,9 +427,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
       "community": 1,
-      "norm_label": "terminaladapter"
+      "norm_label": "terminaladapter",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": "PagerAdapter",
@@ -359,9 +438,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "pageradapter",
       "community": 1,
-      "norm_label": "pageradapter"
+      "norm_label": "pageradapter",
+      "id": "pageradapter",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": ".TerminalAdapter()",
@@ -369,9 +449,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_terminaladapter",
       "community": 1,
-      "norm_label": ".terminaladapter()"
+      "norm_label": ".terminaladapter()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_terminaladapter",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": ".refreshPagerView()",
@@ -379,9 +460,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshpagerview",
       "community": 1,
-      "norm_label": ".refreshpagerview()"
+      "norm_label": ".refreshpagerview()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshpagerview",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": ".getTerminalView()",
@@ -389,9 +471,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L31",
       "_origin": "ast",
+      "community": 1,
+      "norm_label": ".getterminalview()",
       "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getterminalview",
-      "community": 3,
-      "norm_label": ".getterminalview()"
+      "community_name": "TerminalAdapter"
     },
     {
       "label": ".instantiateItem()",
@@ -399,9 +482,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_instantiateitem",
       "community": 1,
-      "norm_label": ".instantiateitem()"
+      "norm_label": ".instantiateitem()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_instantiateitem",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": "ViewGroup",
@@ -409,9 +493,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "viewgroup",
       "community": 1,
-      "norm_label": "viewgroup"
+      "norm_label": "viewgroup",
+      "id": "viewgroup",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": "Override",
@@ -419,9 +504,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override",
       "community": 1,
-      "norm_label": "override"
+      "norm_label": "override",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": ".getCount()",
@@ -429,9 +515,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getcount",
       "community": 1,
-      "norm_label": ".getcount()"
+      "norm_label": ".getcount()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getcount",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": ".isViewFromObject()",
@@ -439,9 +526,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_isviewfromobject",
       "community": 1,
-      "norm_label": ".isviewfromobject()"
+      "norm_label": ".isviewfromobject()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_isviewfromobject",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": "View",
@@ -449,9 +537,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_view",
       "community": 1,
-      "norm_label": "view"
+      "norm_label": "view",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_view",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": ".destroyItem()",
@@ -459,9 +548,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_destroyitem",
       "community": 1,
-      "norm_label": ".destroyitem()"
+      "norm_label": ".destroyitem()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_destroyitem",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": ".refreshAllViews()",
@@ -469,9 +559,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalAdapter.java",
       "source_location": "L63",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshallviews",
       "community": 1,
-      "norm_label": ".refreshallviews()"
+      "norm_label": ".refreshallviews()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshallviews",
+      "community_name": "TerminalAdapter"
     },
     {
       "label": "TerminalView.java",
@@ -479,9 +570,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalView.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview",
       "community": 2,
-      "norm_label": "terminalview.java"
+      "norm_label": "terminalview.java",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview",
+      "community_name": "TerminalView"
     },
     {
       "label": "TerminalView",
@@ -489,9 +581,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalView.java",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
       "community": 2,
-      "norm_label": "terminalview"
+      "norm_label": "terminalview",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
+      "community_name": "TerminalView"
     },
     {
       "label": "ScrollView",
@@ -499,9 +592,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "scrollview",
       "community": 2,
-      "norm_label": "scrollview"
+      "norm_label": "scrollview",
+      "id": "scrollview",
+      "community_name": "TerminalView"
     },
     {
       "label": "TextView",
@@ -509,9 +603,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview_java_textview",
       "community": 2,
-      "norm_label": "textview"
+      "norm_label": "textview",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_java_textview",
+      "community_name": "TerminalView"
     },
     {
       "label": "EditText",
@@ -519,9 +614,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "edittext",
       "community": 2,
-      "norm_label": "edittext"
+      "norm_label": "edittext",
+      "id": "edittext",
+      "community_name": "TerminalView"
     },
     {
       "label": "MinimaAPI",
@@ -529,9 +625,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi",
       "community": 2,
-      "norm_label": "minimaapi"
+      "norm_label": "minimaapi",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi",
+      "community_name": "TerminalView"
     },
     {
       "label": ".TerminalView()",
@@ -539,9 +636,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalView.java",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_terminalview",
       "community": 2,
-      "norm_label": ".terminalview()"
+      "norm_label": ".terminalview()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_terminalview",
+      "community_name": "TerminalView"
     },
     {
       "label": "Activity",
@@ -549,9 +647,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview_java_activity",
       "community": 2,
-      "norm_label": "activity"
+      "norm_label": "activity",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_java_activity",
+      "community_name": "TerminalView"
     },
     {
       "label": ".setMinimaAPI()",
@@ -559,9 +658,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalView.java",
       "source_location": "L101",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_setminimaapi",
       "community": 2,
-      "norm_label": ".setminimaapi()"
+      "norm_label": ".setminimaapi()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_setminimaapi",
+      "community_name": "TerminalView"
     },
     {
       "label": ".runCMD()",
@@ -569,9 +669,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalView.java",
       "source_location": "L105",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_runcmd",
       "community": 2,
-      "norm_label": ".runcmd()"
+      "norm_label": ".runcmd()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_runcmd",
+      "community_name": "TerminalView"
     },
     {
       "label": ".appendText()",
@@ -579,9 +680,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/TerminalView.java",
       "source_location": "L126",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext",
       "community": 2,
-      "norm_label": ".appendtext()"
+      "norm_label": ".appendtext()",
+      "id": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext",
+      "community_name": "TerminalView"
     },
     {
       "label": "MinimaNotifyReceiver.java",
@@ -589,9 +691,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/MinimaNotifyReceiver.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver",
       "community": 0,
-      "norm_label": "minimanotifyreceiver.java"
+      "norm_label": "minimanotifyreceiver.java",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "MinimaNotifyReceiver",
@@ -599,9 +702,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/MinimaNotifyReceiver.java",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver",
       "community": 0,
-      "norm_label": "minimanotifyreceiver"
+      "norm_label": "minimanotifyreceiver",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "BroadcastReceiver",
@@ -609,9 +713,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "broadcastreceiver",
       "community": 0,
-      "norm_label": "broadcastreceiver"
+      "norm_label": "broadcastreceiver",
+      "id": "broadcastreceiver",
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".onReceive()",
@@ -619,9 +724,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/MinimaNotifyReceiver.java",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive",
       "community": 0,
-      "norm_label": ".onreceive()"
+      "norm_label": ".onreceive()",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "Context",
@@ -629,9 +735,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_context",
       "community": 0,
-      "norm_label": "context"
+      "norm_label": "context",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_context",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "Intent",
@@ -639,9 +746,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "intent",
       "community": 0,
-      "norm_label": "intent"
+      "norm_label": "intent",
+      "id": "intent",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "Override",
@@ -649,9 +757,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_override",
       "community": 0,
-      "norm_label": "override"
+      "norm_label": "override",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_override",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "ReceiverDB.java",
@@ -659,9 +768,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
       "community": 0,
-      "norm_label": "receiverdb.java"
+      "norm_label": "receiverdb.java",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "ReceiverDB",
@@ -669,9 +779,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
       "community": 0,
-      "norm_label": "receiverdb"
+      "norm_label": "receiverdb",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "SQLiteOpenHelper",
@@ -679,9 +790,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "sqliteopenhelper",
       "community": 0,
-      "norm_label": "sqliteopenhelper"
+      "norm_label": "sqliteopenhelper",
+      "id": "sqliteopenhelper",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "SQLiteDatabase",
@@ -689,9 +801,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
+      "community": 0,
+      "norm_label": "sqlitedatabase",
       "id": "sqlitedatabase",
-      "community": 6,
-      "norm_label": "sqlitedatabase"
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".ReceiverDB()",
@@ -699,9 +812,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_receiverdb",
       "community": 0,
-      "norm_label": ".receiverdb()"
+      "norm_label": ".receiverdb()",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_receiverdb",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "Context",
@@ -709,9 +823,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_context",
       "community": 0,
-      "norm_label": "context"
+      "norm_label": "context",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_context",
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".isOpen()",
@@ -719,9 +834,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_isopen",
       "community": 0,
-      "norm_label": ".isopen()"
+      "norm_label": ".isopen()",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_isopen",
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".reOpen()",
@@ -729,9 +845,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_reopen",
       "community": 0,
-      "norm_label": ".reopen()"
+      "norm_label": ".reopen()",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_reopen",
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".onCreate()",
@@ -739,9 +856,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L52",
       "_origin": "ast",
+      "community": 0,
+      "norm_label": ".oncreate()",
       "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_oncreate",
-      "community": 6,
-      "norm_label": ".oncreate()"
+      "community_name": "ReceiverDB"
     },
     {
       "label": "Override",
@@ -749,9 +867,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
+      "community": 0,
+      "norm_label": "override",
       "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_override",
-      "community": 6,
-      "norm_label": "override"
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".wipeDB()",
@@ -759,9 +878,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L57",
       "_origin": "ast",
+      "community": 0,
+      "norm_label": ".wipedb()",
       "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb",
-      "community": 6,
-      "norm_label": ".wipedb()"
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".onUpgrade()",
@@ -769,9 +889,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L62",
       "_origin": "ast",
+      "community": 0,
+      "norm_label": ".onupgrade()",
       "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_onupgrade",
-      "community": 6,
-      "norm_label": ".onupgrade()"
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".onDowngrade()",
@@ -779,9 +900,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L66",
       "_origin": "ast",
+      "community": 0,
+      "norm_label": ".ondowngrade()",
       "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_ondowngrade",
-      "community": 6,
-      "norm_label": ".ondowngrade()"
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".insertEvent()",
@@ -789,9 +911,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L71",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_insertevent",
       "community": 0,
-      "norm_label": ".insertevent()"
+      "norm_label": ".insertevent()",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_insertevent",
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".convertCursor()",
@@ -799,9 +922,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L81",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor",
       "community": 0,
-      "norm_label": ".convertcursor()"
+      "norm_label": ".convertcursor()",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "Cursor",
@@ -809,9 +933,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "cursor",
       "community": 0,
-      "norm_label": "cursor"
+      "norm_label": "cursor",
+      "id": "cursor",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "JSONObject",
@@ -819,9 +944,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "jsonobject",
       "community": 0,
-      "norm_label": "jsonobject"
+      "norm_label": "jsonobject",
+      "id": "jsonobject",
+      "community_name": "ReceiverDB"
     },
     {
       "label": ".getAllMessages()",
@@ -829,9 +955,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L96",
       "_origin": "ast",
+      "community": 5,
+      "norm_label": ".getallmessages()",
       "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_getallmessages",
-      "community": 0,
-      "norm_label": ".getallmessages()"
+      "community_name": "LogsView"
     },
     {
       "label": "JSONArray",
@@ -839,9 +966,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
+      "community": 5,
+      "norm_label": "jsonarray",
       "id": "jsonarray",
-      "community": 0,
-      "norm_label": "jsonarray"
+      "community_name": "LogsView"
     },
     {
       "label": ".deleteOldMessages()",
@@ -849,9 +977,10 @@
       "source_file": "app/src/main/java/org/minimarex/terminal/receiver/ReceiverDB.java",
       "source_location": "L116",
       "_origin": "ast",
-      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_deleteoldmessages",
       "community": 0,
-      "norm_label": ".deleteoldmessages()"
+      "norm_label": ".deleteoldmessages()",
+      "id": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_deleteoldmessages",
+      "community_name": "ReceiverDB"
     },
     {
       "label": "ExampleUnitTest.java",
@@ -859,9 +988,10 @@
       "source_file": "app/src/test/java/org/minimarex/terminal/ExampleUnitTest.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest",
       "community": 9,
-      "norm_label": "exampleunittest.java"
+      "norm_label": "exampleunittest.java",
+      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest",
+      "community_name": "ExampleUnitTest.java"
     },
     {
       "label": "ExampleUnitTest",
@@ -869,9 +999,10 @@
       "source_file": "app/src/test/java/org/minimarex/terminal/ExampleUnitTest.java",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest",
       "community": 9,
-      "norm_label": "exampleunittest"
+      "norm_label": "exampleunittest",
+      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest",
+      "community_name": "ExampleUnitTest.java"
     },
     {
       "label": ".addition_isCorrect()",
@@ -879,9 +1010,10 @@
       "source_file": "app/src/test/java/org/minimarex/terminal/ExampleUnitTest.java",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest_addition_iscorrect",
       "community": 9,
-      "norm_label": ".addition_iscorrect()"
+      "norm_label": ".addition_iscorrect()",
+      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest_addition_iscorrect",
+      "community_name": "ExampleUnitTest.java"
     },
     {
       "label": "Test",
@@ -889,9 +1021,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest_java_test",
       "community": 9,
-      "norm_label": "test"
+      "norm_label": "test",
+      "id": "app_src_test_java_org_minimarex_terminal_exampleunittest_java_test",
+      "community_name": "ExampleUnitTest.java"
     },
     {
       "label": "build.gradle",
@@ -899,9 +1032,10 @@
       "source_file": "build.gradle",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "build",
       "community": 13,
-      "norm_label": "build.gradle"
+      "norm_label": "build.gradle",
+      "id": "build",
+      "community_name": "build.gradle"
     },
     {
       "label": "gradlew",
@@ -913,9 +1047,10 @@
         "kind": "file"
       },
       "_origin": "ast",
-      "id": "gradlew",
       "community": 8,
-      "norm_label": "gradlew"
+      "norm_label": "gradlew",
+      "id": "gradlew",
+      "community_name": "gradlew"
     },
     {
       "label": "gradlew script",
@@ -927,9 +1062,10 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "id": "gradlew__entry",
       "community": 8,
-      "norm_label": "gradlew script"
+      "norm_label": "gradlew script",
+      "id": "gradlew__entry",
+      "community_name": "gradlew"
     },
     {
       "label": "warn()",
@@ -941,9 +1077,10 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "id": "gradlew_warn",
       "community": 8,
-      "norm_label": "warn()"
+      "norm_label": "warn()",
+      "id": "gradlew_warn",
+      "community_name": "gradlew"
     },
     {
       "label": "die()",
@@ -955,9 +1092,10 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "id": "gradlew_die",
       "community": 8,
-      "norm_label": "die()"
+      "norm_label": "die()",
+      "id": "gradlew_die",
+      "community_name": "gradlew"
     },
     {
       "label": "save()",
@@ -969,9 +1107,10 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "id": "gradlew_save",
       "community": 8,
-      "norm_label": "save()"
+      "norm_label": "save()",
+      "id": "gradlew_save",
+      "community_name": "gradlew"
     },
     {
       "label": "settings.gradle",
@@ -979,12 +1118,46 @@
       "source_file": "settings.gradle",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "settings",
       "community": 14,
-      "norm_label": "settings.gradle"
+      "norm_label": "settings.gradle",
+      "id": "settings",
+      "community_name": "settings.gradle"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "claude",
+      "target": "claude_user_instructions_authoritative_these_override_default_behavior_and_must_be_followed_exactly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "claude_user_instructions_authoritative_these_override_default_behavior_and_must_be_followed_exactly",
+      "target": "claude_remotes_origin_is_the_fork_upstream_is_spartacus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "claude_user_instructions_authoritative_these_override_default_behavior_and_must_be_followed_exactly",
+      "target": "claude_rule_0_highest_priority_follow_the_user_s_explicit_instructions_they_are_blocking_not_suggestions",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -992,9 +1165,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest",
-      "target": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest",
-      "confidence_score": 1.0
+      "target": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest"
     },
     {
       "relation": "imports",
@@ -1004,9 +1177,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest",
-      "target": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_java_test",
-      "confidence_score": 1.0
+      "target": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_java_test"
     },
     {
       "relation": "imports",
@@ -1016,9 +1189,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest",
-      "target": "runwith",
-      "confidence_score": 1.0
+      "target": "runwith"
     },
     {
       "relation": "method",
@@ -1027,9 +1200,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest",
-      "target": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
-      "confidence_score": 1.0
+      "target": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext"
     },
     {
       "relation": "references",
@@ -1039,9 +1212,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest",
-      "target": "runwith",
-      "confidence_score": 1.0
+      "target": "runwith"
     },
     {
       "relation": "references",
@@ -1051,9 +1224,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
-      "target": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_java_test",
-      "confidence_score": 1.0
+      "target": "app_src_androidtest_java_org_minimarex_terminal_exampleinstrumentedtest_java_test"
     },
     {
       "relation": "contains",
@@ -1062,9 +1235,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview"
     },
     {
       "relation": "imports",
@@ -1074,9 +1247,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_activity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_activity"
     },
     {
       "relation": "imports",
@@ -1086,9 +1259,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_view",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_view"
     },
     {
       "relation": "method",
@@ -1097,9 +1270,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview_baseview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview_baseview"
     },
     {
       "relation": "method",
@@ -1108,9 +1281,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getactivity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getactivity"
     },
     {
       "relation": "method",
@@ -1119,9 +1292,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getmainview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getmainview"
     },
     {
       "relation": "method",
@@ -1130,9 +1303,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview_refreshview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview_refreshview"
     },
     {
       "relation": "references",
@@ -1142,9 +1315,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_activity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_activity"
     },
     {
       "relation": "references",
@@ -1154,9 +1327,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_view",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_view"
     },
     {
       "relation": "inherits",
@@ -1165,9 +1338,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview"
     },
     {
       "relation": "references",
@@ -1177,9 +1350,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview"
     },
     {
       "relation": "inherits",
@@ -1188,9 +1361,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_baseview"
     },
     {
       "relation": "references",
@@ -1200,9 +1373,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview_baseview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_activity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_activity"
     },
     {
       "relation": "references",
@@ -1212,9 +1385,9 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getactivity",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_activity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_activity"
     },
     {
       "relation": "references",
@@ -1224,9 +1397,9 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_baseview_baseview_getmainview",
-      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_view",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_baseview_java_view"
     },
     {
       "relation": "calls",
@@ -1260,9 +1433,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_activity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_activity"
     },
     {
       "relation": "imports",
@@ -1272,9 +1445,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_textview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_textview"
     },
     {
       "relation": "contains",
@@ -1283,9 +1456,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview"
     },
     {
       "relation": "imports",
@@ -1295,9 +1468,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb"
     },
     {
       "relation": "imports",
@@ -1307,9 +1480,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview",
-      "target": "jsonarray",
-      "confidence_score": 1.0
+      "target": "jsonarray"
     },
     {
       "relation": "imports",
@@ -1319,9 +1492,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview",
-      "target": "jsonobject",
-      "confidence_score": 1.0
+      "target": "jsonobject"
     },
     {
       "relation": "references",
@@ -1331,9 +1504,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_textview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_textview"
     },
     {
       "relation": "method",
@@ -1342,9 +1515,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview_logsview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview_logsview"
     },
     {
       "relation": "method",
@@ -1353,9 +1526,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview_refreshview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview_refreshview"
     },
     {
       "relation": "method",
@@ -1364,9 +1537,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview_setmaintext",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview_setmaintext"
     },
     {
       "relation": "references",
@@ -1376,9 +1549,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb"
     },
     {
       "relation": "references",
@@ -1388,9 +1561,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_activity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_activity"
     },
     {
       "relation": "calls",
@@ -1400,9 +1573,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview_logsview",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb"
     },
     {
       "relation": "references",
@@ -1412,9 +1585,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview_refreshview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_java_override"
     },
     {
       "relation": "calls",
@@ -1424,9 +1597,9 @@
       "source_location": "L55",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_logsview_logsview_refreshview",
-      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview_setmaintext",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_logsview_logsview_setmaintext"
     },
     {
       "relation": "calls",
@@ -1460,9 +1633,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi"
     },
     {
       "relation": "contains",
@@ -1471,9 +1644,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity"
     },
     {
       "relation": "imports",
@@ -1483,9 +1656,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity",
-      "target": "appcompatactivity",
-      "confidence_score": 1.0
+      "target": "appcompatactivity"
     },
     {
       "relation": "imports",
@@ -1495,9 +1668,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity",
-      "target": "bundle",
-      "confidence_score": 1.0
+      "target": "bundle"
     },
     {
       "relation": "imports",
@@ -1507,9 +1680,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity",
-      "target": "jsonobject",
-      "confidence_score": 1.0
+      "target": "jsonobject"
     },
     {
       "relation": "imports",
@@ -1519,9 +1692,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity",
-      "target": "viewpager",
-      "confidence_score": 1.0
+      "target": "viewpager"
     },
     {
       "relation": "references",
@@ -1531,9 +1704,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi"
     },
     {
       "relation": "method",
@@ -1542,9 +1715,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate"
     },
     {
       "relation": "method",
@@ -1553,9 +1726,9 @@
       "source_location": "L88",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_ondestroy",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_ondestroy"
     },
     {
       "relation": "references",
@@ -1565,9 +1738,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter"
     },
     {
       "relation": "inherits",
@@ -1576,9 +1749,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
-      "target": "appcompatactivity",
-      "confidence_score": 1.0
+      "target": "appcompatactivity"
     },
     {
       "relation": "references",
@@ -1588,9 +1761,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
-      "target": "viewpager",
-      "confidence_score": 1.0
+      "target": "viewpager"
     },
     {
       "relation": "references",
@@ -1600,9 +1773,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity"
     },
     {
       "relation": "calls",
@@ -1612,9 +1785,9 @@
       "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_minimaapi"
     },
     {
       "relation": "references",
@@ -1624,9 +1797,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_override"
     },
     {
       "relation": "calls",
@@ -1636,9 +1809,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter"
     },
     {
       "relation": "calls",
@@ -1660,9 +1833,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_oncreate",
-      "target": "bundle",
-      "confidence_score": 1.0
+      "target": "bundle"
     },
     {
       "relation": "references",
@@ -1672,9 +1845,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_mainactivity_mainactivity_ondestroy",
-      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_mainactivity_java_override"
     },
     {
       "relation": "imports",
@@ -1684,9 +1857,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_view",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_view"
     },
     {
       "relation": "contains",
@@ -1695,9 +1868,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter"
     },
     {
       "relation": "imports",
@@ -1707,9 +1880,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter",
-      "target": "pageradapter",
-      "confidence_score": 1.0
+      "target": "pageradapter"
     },
     {
       "relation": "imports",
@@ -1719,9 +1892,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter",
-      "target": "viewgroup",
-      "confidence_score": 1.0
+      "target": "viewgroup"
     },
     {
       "relation": "method",
@@ -1730,9 +1903,9 @@
       "source_location": "L57",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_destroyitem",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_destroyitem"
     },
     {
       "relation": "method",
@@ -1741,9 +1914,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getcount",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getcount"
     },
     {
       "relation": "method",
@@ -1752,9 +1925,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getterminalview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getterminalview"
     },
     {
       "relation": "method",
@@ -1763,9 +1936,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_instantiateitem",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_instantiateitem"
     },
     {
       "relation": "method",
@@ -1774,9 +1947,9 @@
       "source_location": "L52",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_isviewfromobject",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_isviewfromobject"
     },
     {
       "relation": "method",
@@ -1785,9 +1958,9 @@
       "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshallviews",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshallviews"
     },
     {
       "relation": "method",
@@ -1796,9 +1969,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshpagerview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_refreshpagerview"
     },
     {
       "relation": "method",
@@ -1807,9 +1980,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_terminaladapter",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_terminaladapter"
     },
     {
       "relation": "inherits",
@@ -1818,9 +1991,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter",
-      "target": "pageradapter",
-      "confidence_score": 1.0
+      "target": "pageradapter"
     },
     {
       "relation": "calls",
@@ -1830,9 +2003,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_terminaladapter",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview"
     },
     {
       "relation": "references",
@@ -1842,9 +2015,9 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getterminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview"
     },
     {
       "relation": "references",
@@ -1854,9 +2027,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_instantiateitem",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override"
     },
     {
       "relation": "references",
@@ -1866,9 +2039,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_instantiateitem",
-      "target": "viewgroup",
-      "confidence_score": 1.0
+      "target": "viewgroup"
     },
     {
       "relation": "references",
@@ -1878,9 +2051,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_destroyitem",
-      "target": "viewgroup",
-      "confidence_score": 1.0
+      "target": "viewgroup"
     },
     {
       "relation": "references",
@@ -1890,9 +2063,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_destroyitem",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override"
     },
     {
       "relation": "references",
@@ -1902,9 +2075,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_getcount",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override"
     },
     {
       "relation": "references",
@@ -1914,9 +2087,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_isviewfromobject",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_override"
     },
     {
       "relation": "references",
@@ -1926,9 +2099,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminaladapter_terminaladapter_isviewfromobject",
-      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_view",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminaladapter_java_view"
     },
     {
       "relation": "imports",
@@ -1938,9 +2111,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_activity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_activity"
     },
     {
       "relation": "imports",
@@ -1950,9 +2123,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi"
     },
     {
       "relation": "imports",
@@ -1962,9 +2135,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_textview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_textview"
     },
     {
       "relation": "contains",
@@ -1973,9 +2146,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview"
     },
     {
       "relation": "imports",
@@ -1985,9 +2158,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview",
-      "target": "edittext",
-      "confidence_score": 1.0
+      "target": "edittext"
     },
     {
       "relation": "imports",
@@ -1997,9 +2170,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview",
-      "target": "jsonobject",
-      "confidence_score": 1.0
+      "target": "jsonobject"
     },
     {
       "relation": "imports",
@@ -2009,9 +2182,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview",
-      "target": "scrollview",
-      "confidence_score": 1.0
+      "target": "scrollview"
     },
     {
       "relation": "references",
@@ -2021,9 +2194,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi"
     },
     {
       "relation": "references",
@@ -2033,9 +2206,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_textview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_textview"
     },
     {
       "relation": "method",
@@ -2044,9 +2217,9 @@
       "source_location": "L126",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext"
     },
     {
       "relation": "method",
@@ -2055,9 +2228,9 @@
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_runcmd",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_runcmd"
     },
     {
       "relation": "method",
@@ -2066,9 +2239,9 @@
       "source_location": "L101",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_setminimaapi",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_setminimaapi"
     },
     {
       "relation": "method",
@@ -2077,9 +2250,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_terminalview",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_terminalview"
     },
     {
       "relation": "references",
@@ -2089,9 +2262,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "edittext",
-      "confidence_score": 1.0
+      "target": "edittext"
     },
     {
       "relation": "references",
@@ -2101,9 +2274,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview",
-      "target": "scrollview",
-      "confidence_score": 1.0
+      "target": "scrollview"
     },
     {
       "relation": "references",
@@ -2113,9 +2286,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_setminimaapi",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_minimaapi"
     },
     {
       "relation": "references",
@@ -2125,9 +2298,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_activity",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_java_activity"
     },
     {
       "relation": "calls",
@@ -2137,9 +2310,9 @@
       "source_location": "L37",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_terminalview",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext"
     },
     {
       "relation": "calls",
@@ -2149,9 +2322,9 @@
       "source_location": "L108",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_runcmd",
-      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_terminalview_terminalview_appendtext"
     },
     {
       "relation": "imports",
@@ -2161,9 +2334,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_context",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_context"
     },
     {
       "relation": "contains",
@@ -2172,9 +2345,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver"
     },
     {
       "relation": "imports",
@@ -2184,9 +2357,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver",
-      "target": "broadcastreceiver",
-      "confidence_score": 1.0
+      "target": "broadcastreceiver"
     },
     {
       "relation": "imports",
@@ -2196,9 +2369,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver",
-      "target": "intent",
-      "confidence_score": 1.0
+      "target": "intent"
     },
     {
       "relation": "imports",
@@ -2208,9 +2381,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver",
-      "target": "jsonobject",
-      "confidence_score": 1.0
+      "target": "jsonobject"
     },
     {
       "relation": "method",
@@ -2219,9 +2392,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive"
     },
     {
       "relation": "references",
@@ -2231,9 +2404,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb"
     },
     {
       "relation": "inherits",
@@ -2242,9 +2415,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver",
-      "target": "broadcastreceiver",
-      "confidence_score": 1.0
+      "target": "broadcastreceiver"
     },
     {
       "relation": "references",
@@ -2254,9 +2427,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_context",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_context"
     },
     {
       "relation": "references",
@@ -2266,9 +2439,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_java_override"
     },
     {
       "relation": "calls",
@@ -2278,9 +2451,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb"
     },
     {
       "relation": "calls",
@@ -2338,9 +2511,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_minimanotifyreceiver_minimanotifyreceiver_onreceive",
-      "target": "intent",
-      "confidence_score": 1.0
+      "target": "intent"
     },
     {
       "relation": "calls",
@@ -2362,9 +2535,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_context",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_context"
     },
     {
       "relation": "contains",
@@ -2373,9 +2546,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb"
     },
     {
       "relation": "imports",
@@ -2385,9 +2558,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
-      "target": "cursor",
-      "confidence_score": 1.0
+      "target": "cursor"
     },
     {
       "relation": "imports",
@@ -2397,9 +2570,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
-      "target": "jsonarray",
-      "confidence_score": 1.0
+      "target": "jsonarray"
     },
     {
       "relation": "imports",
@@ -2409,9 +2582,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
-      "target": "jsonobject",
-      "confidence_score": 1.0
+      "target": "jsonobject"
     },
     {
       "relation": "imports",
@@ -2421,9 +2594,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
-      "target": "sqlitedatabase",
-      "confidence_score": 1.0
+      "target": "sqlitedatabase"
     },
     {
       "relation": "imports",
@@ -2433,9 +2606,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb",
-      "target": "sqliteopenhelper",
-      "confidence_score": 1.0
+      "target": "sqliteopenhelper"
     },
     {
       "relation": "method",
@@ -2444,9 +2617,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor"
     },
     {
       "relation": "method",
@@ -2455,9 +2628,9 @@
       "source_location": "L116",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_deleteoldmessages",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_deleteoldmessages"
     },
     {
       "relation": "method",
@@ -2466,9 +2639,9 @@
       "source_location": "L96",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_getallmessages",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_getallmessages"
     },
     {
       "relation": "method",
@@ -2477,9 +2650,9 @@
       "source_location": "L71",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_insertevent",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_insertevent"
     },
     {
       "relation": "method",
@@ -2488,9 +2661,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_isopen",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_isopen"
     },
     {
       "relation": "method",
@@ -2499,9 +2672,9 @@
       "source_location": "L52",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_oncreate",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_oncreate"
     },
     {
       "relation": "method",
@@ -2510,9 +2683,9 @@
       "source_location": "L66",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_ondowngrade",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_ondowngrade"
     },
     {
       "relation": "method",
@@ -2521,9 +2694,9 @@
       "source_location": "L62",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_onupgrade",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_onupgrade"
     },
     {
       "relation": "method",
@@ -2532,9 +2705,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_receiverdb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_receiverdb"
     },
     {
       "relation": "method",
@@ -2543,9 +2716,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_reopen",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_reopen"
     },
     {
       "relation": "method",
@@ -2554,9 +2727,9 @@
       "source_location": "L57",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb"
     },
     {
       "relation": "references",
@@ -2566,9 +2739,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "sqlitedatabase",
-      "confidence_score": 1.0
+      "target": "sqlitedatabase"
     },
     {
       "relation": "inherits",
@@ -2577,9 +2750,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb",
-      "target": "sqliteopenhelper",
-      "confidence_score": 1.0
+      "target": "sqliteopenhelper"
     },
     {
       "relation": "references",
@@ -2589,9 +2762,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_oncreate",
-      "target": "sqlitedatabase",
-      "confidence_score": 1.0
+      "target": "sqlitedatabase"
     },
     {
       "relation": "references",
@@ -2601,9 +2774,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_ondowngrade",
-      "target": "sqlitedatabase",
-      "confidence_score": 1.0
+      "target": "sqlitedatabase"
     },
     {
       "relation": "references",
@@ -2613,9 +2786,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_onupgrade",
-      "target": "sqlitedatabase",
-      "confidence_score": 1.0
+      "target": "sqlitedatabase"
     },
     {
       "relation": "references",
@@ -2625,9 +2798,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_receiverdb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_context",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_context"
     },
     {
       "relation": "references",
@@ -2637,9 +2810,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_oncreate",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_override"
     },
     {
       "relation": "calls",
@@ -2649,9 +2822,9 @@
       "source_location": "L59",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_oncreate",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_oncreate"
     },
     {
       "relation": "references",
@@ -2661,9 +2834,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_ondowngrade",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_override"
     },
     {
       "relation": "references",
@@ -2673,9 +2846,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_onupgrade",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_override",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_java_override"
     },
     {
       "relation": "calls",
@@ -2685,9 +2858,9 @@
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_ondowngrade",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb"
     },
     {
       "relation": "calls",
@@ -2697,9 +2870,9 @@
       "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_onupgrade",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_wipedb"
     },
     {
       "relation": "references",
@@ -2709,9 +2882,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor",
-      "target": "cursor",
-      "confidence_score": 1.0
+      "target": "cursor"
     },
     {
       "relation": "references",
@@ -2721,9 +2894,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor",
-      "target": "jsonobject",
-      "confidence_score": 1.0
+      "target": "jsonobject"
     },
     {
       "relation": "calls",
@@ -2733,9 +2906,9 @@
       "source_location": "L106",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_getallmessages",
-      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_convertcursor"
     },
     {
       "relation": "references",
@@ -2745,9 +2918,9 @@
       "source_location": "L96",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_org_minimarex_terminal_receiver_receiverdb_receiverdb_getallmessages",
-      "target": "jsonarray",
-      "confidence_score": 1.0
+      "target": "jsonarray"
     },
     {
       "relation": "contains",
@@ -2756,9 +2929,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_test_java_org_minimarex_terminal_exampleunittest",
-      "target": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest",
-      "confidence_score": 1.0
+      "target": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest"
     },
     {
       "relation": "imports",
@@ -2768,9 +2941,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_test_java_org_minimarex_terminal_exampleunittest",
-      "target": "app_src_test_java_org_minimarex_terminal_exampleunittest_java_test",
-      "confidence_score": 1.0
+      "target": "app_src_test_java_org_minimarex_terminal_exampleunittest_java_test"
     },
     {
       "relation": "method",
@@ -2779,9 +2952,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest",
-      "target": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest_addition_iscorrect",
-      "confidence_score": 1.0
+      "target": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest_addition_iscorrect"
     },
     {
       "relation": "references",
@@ -2791,9 +2964,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_test_java_org_minimarex_terminal_exampleunittest_exampleunittest_addition_iscorrect",
-      "target": "app_src_test_java_org_minimarex_terminal_exampleunittest_java_test",
-      "confidence_score": 1.0
+      "target": "app_src_test_java_org_minimarex_terminal_exampleunittest_java_test"
     },
     {
       "relation": "contains",
@@ -2802,9 +2975,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew__entry",
-      "confidence_score": 1.0
+      "target": "gradlew__entry"
     },
     {
       "relation": "defines",
@@ -2813,9 +2986,9 @@
       "source_location": "L56",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_die",
-      "confidence_score": 1.0
+      "target": "gradlew_die"
     },
     {
       "relation": "defines",
@@ -2824,9 +2997,9 @@
       "source_location": "L176",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_save",
-      "confidence_score": 1.0
+      "target": "gradlew_save"
     },
     {
       "relation": "defines",
@@ -2835,9 +3008,9 @@
       "source_location": "L52",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_warn",
-      "confidence_score": 1.0
+      "target": "gradlew_warn"
     },
     {
       "relation": "calls",
@@ -2847,9 +3020,9 @@
       "weight": 1.0,
       "context": "call",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew__entry",
-      "target": "gradlew_die",
-      "confidence_score": 1.0
+      "target": "gradlew_die"
     },
     {
       "relation": "calls",
@@ -2859,11 +3032,11 @@
       "weight": 1.0,
       "context": "call",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew__entry",
-      "target": "gradlew_warn",
-      "confidence_score": 1.0
+      "target": "gradlew_warn"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f5a3592882ad54e5394c5cd5391786a589110bd1"
+  "built_at_commit": "df8b7c37e03fec9a2b3627f7c7d2012803a40b86"
 }
