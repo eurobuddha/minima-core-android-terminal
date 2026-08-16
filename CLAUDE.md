@@ -34,3 +34,12 @@ They used to be the other way round (`origin` = upstream, a second remote `fork`
 403'd every push and stranded five commits locally — including a security fix — until someone checked
 `git remote -v`. Remote names live in `.git/config` and are NOT tracked by git, so a fresh clone will NOT
 inherit this layout: whoever clones next must set it up again, which is why it is written down here.
+
+## Versioning guardrail — every code change ships with a version bump
+
+Real funds, real chain. NEVER change code without bumping the version
+(versionCode + versionName in app/build.gradle), so every committed state is distinct, reversible and trackable. One
+logical change = one version = one commit = one push, in order. Enforced by a
+pre-commit hook (.githooks/pre-commit, install once: sh .githooks/install.sh)
+that blocks a code change with no version bump. Do NOT bypass with --no-verify.
+Docs/config-only commits need no bump.
