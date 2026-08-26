@@ -12,9 +12,19 @@ import org.minimarex.minimaapi.MinimaAPIMessages;
 
 import java.util.Objects;
 
+/**
+ * Manifest-registered receiver for Minima Core's MINIMA_API_NOTIFY broadcasts.
+ * Runs with no activity alive, verifies the MinimaID (so a broadcast from
+ * anything other than OUR registered node pairing is dropped), and files
+ * MINIMALOG events into ReceiverDB for the Logs tab. Other event types are
+ * deliberately ignored — this app only shows logs.
+ */
 public class MinimaNotifyReceiver extends BroadcastReceiver {
 
-    //This DB is static so remains longer than the lifespan of the receiver
+    // Static on purpose: a BroadcastReceiver instance lives only for one
+    // onReceive() call, but reopening SQLite per broadcast is wasteful — the
+    // process outlives the receiver, so the handle is kept and reOpen()ed only
+    // if Android closed it in between.
     private static ReceiverDB mDB = null;
 
     @Override

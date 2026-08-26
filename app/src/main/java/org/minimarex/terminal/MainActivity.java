@@ -18,12 +18,25 @@ import org.minimarex.minimaapi.MinimaAPI;
 import org.minimarex.minimaapi.MinimaAPIListener;
 import org.minimarex.minimaapi.MinimaAPILogger;
 
+/**
+ * Minima Terminal — a two-tab window onto the on-device Minima Core node.
+ *
+ * Tab 0 (Terminal) sends node commands and prints the JSON replies; tab 1 (Logs)
+ * shows the node's MINIMALOG stream, captured by {@code MinimaNotifyReceiver}
+ * into a small SQLite cache so log lines survive while this app is closed.
+ * All node access goes through the minimaapi broadcast-Intent IPC — the app
+ * never opens a socket and works only when the Minima Core app is installed
+ * and this app is enabled under Minima Core → Apps.
+ */
 public class MainActivity extends AppCompatActivity {
 
     ViewPager mMainPager;
 
     TerminalAdapter mTerminalAdapter;
 
+    // One MinimaAPI registration per activity: created here, handed to the
+    // TerminalView for commands, and unregistered in onDestroy. Registering in
+    // each view instead would leak duplicate broadcast receivers on tab churn.
     MinimaAPI mMinimaAPI;
 
     @Override
@@ -56,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
 
         tabs.getTabAt(1).setText("Logs");
 
+        // The Logs tab renders on demand (it re-reads the receiver DB in
+        // refreshView), not live — so every select AND re-select refreshes it.
+        // Without the reselect hook, tapping the already-open Logs tab would
+        // show a stale snapshot with no way to update it.
         tabs.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {

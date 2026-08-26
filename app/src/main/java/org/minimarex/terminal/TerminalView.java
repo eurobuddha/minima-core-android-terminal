@@ -15,8 +15,16 @@ import org.json.JSONObject;
 import org.minimarex.minimaapi.MinimaAPI;
 import org.minimarex.minimaapi.MinimaAPIListener;
 
+/**
+ * The Terminal tab: a monospace transcript plus an input row. Each entered
+ * command is echoed, run on the node via the minimaapi IPC, and its JSON reply
+ * appended pretty-printed.
+ */
 public class TerminalView extends BaseView  {
 
+    // The transcript is one TextView; append forever and it slows to a crawl
+    // and eventually OOMs. Anything beyond this many chars is trimmed from the
+    // TOP, so the terminal behaves like a scrollback buffer, not an archive.
     public int MAX_TERMINAL_LENGTH = 20000;
 
     ScrollView mScroller;
@@ -43,11 +51,17 @@ public class TerminalView extends BaseView  {
         appendText("**********************************************");
         appendText("You can run commands in this Terminal..");
 
+        // Two submit paths on purpose: soft keyboards deliver IME_ACTION_DONE,
+        // hardware/BT keyboards (and some IMEs) deliver a raw KEYCODE_ENTER —
+        // handling only one of them makes the other kind of keyboard dead.
         mInput      = mMainView.findViewById(R.id.terminal_input);
         mInput.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 String cmd = mInput.getText().toString().trim();
+                // Clear via post(), not inline: mutating the EditText while the
+                // IME is still dispatching this event races the keyboard's own
+                // text state and can leave ghost text in the field.
                 mInput.post(new Runnable() {
                     @Override
                     public void run() {
@@ -123,6 +137,11 @@ public class TerminalView extends BaseView  {
         });
     }
 
+    /**
+     * Append a line to the transcript and scroll to the bottom. Always posts to
+     * the UI thread — command replies arrive on the IPC's background thread.
+     * The trim keeps only the newest MAX_TERMINAL_LENGTH chars (see above).
+     */
     public void appendText(String zText) {
         mMainText.post(new Runnable() {
             @Override

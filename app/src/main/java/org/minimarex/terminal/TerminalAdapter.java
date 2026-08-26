@@ -6,6 +6,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+/**
+ * PagerAdapter over two pre-built, long-lived views (Terminal, Logs) — plain
+ * views rather than fragments, so the terminal's scrollback and input state
+ * survive tab swipes without any saved-state plumbing.
+ */
 public class TerminalAdapter extends PagerAdapter {
 
     MainActivity mMainActivity;
@@ -35,7 +40,9 @@ public class TerminalAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(final ViewGroup container, int position) {
 
-        //Remove if added
+        // Remove-then-add: the pager can re-instantiate a position whose view it
+        // still holds; addView on an already-parented view throws
+        // IllegalStateException, so detach defensively first.
         container.removeView(mAllViews[position].getMainView());
 
         //Add to our view..

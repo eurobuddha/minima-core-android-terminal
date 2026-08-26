@@ -9,6 +9,12 @@ import org.json.JSONObject;
 import org.minimarex.minimaapi.MinimaAPILogger;
 import org.minimarex.terminal.receiver.ReceiverDB;
 
+/**
+ * The Logs tab: renders the node's MINIMALOG lines that MinimaNotifyReceiver
+ * has been capturing into ReceiverDB — including lines that arrived while this
+ * app was not running. It is a snapshot, not a live tail: refreshView() re-reads
+ * the DB and is invoked on every tab (re)select by MainActivity.
+ */
 public class LogsView extends BaseView {
 
     ReceiverDB mLogsDB;
@@ -48,7 +54,7 @@ public class LogsView extends BaseView {
                 }
 
             } catch (JSONException e) {
-
+                // One malformed row must not blank the whole log view — skip it.
             }
         }
 

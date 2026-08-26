@@ -9,6 +9,14 @@ import android.database.sqlite.SQLiteOpenHelper;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+/**
+ * SQLite cache of node events delivered by broadcast (currently only MINIMALOG
+ * lines). It exists so the Logs tab can show what the node said while this app
+ * was closed — the receiver writes rows with no UI running, the LogsView reads
+ * them on demand. This is a disposable cache, NOT user data: on any schema
+ * version change (up OR down) it is wiped and recreated rather than migrated,
+ * and rows older than 7 days are pruned on every receive.
+ */
 public class ReceiverDB extends SQLiteOpenHelper {
 
     // If you change the database schema, you must increment the database version.

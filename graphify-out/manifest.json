@@ -80,8 +80,8 @@
     "semantic_hash": "e79fa2e0b2aec23a234dba74bc400f8a"
   },
   "CLAUDE.md": {
-    "mtime": 1786313706.7405493,
-    "ast_hash": "eec71d774d0e478babf1c831e8ec9264",
+    "mtime": 1786883525.4254475,
+    "ast_hash": "2df0b5d00e9ef473becb110d7aa28611",
     "semantic_hash": ""
   },
   "README.md": {
@@ -142,6 +142,16 @@
   "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp": {
     "mtime": 1782212552.3436255,
     "ast_hash": "9ee591be72fb336861a8044086054daa",
+    "semantic_hash": ""
+  },
+  ".githooks/install.sh": {
+    "mtime": 1786883525.3972173,
+    "ast_hash": "f31b37c6d1b5d340a5623f1715457ea0",
+    "semantic_hash": ""
+  },
+  ".githooks/pre-commit": {
+    "mtime": 1786883525.3911355,
+    "ast_hash": "03526be838d5dd774506cc1f8b47f38c",
     "semantic_hash": ""
   }
 }

@@ -4,7 +4,7 @@
   "2": "TerminalView",
   "3": "MainActivity",
   "4": "BaseView",
-  "5": "LogsView",
+  "5": "JSONObject",
   "6": "User instructions — AUTHORITATIVE. These override default behavior and must be followed exactly.",
   "7": "ExampleInstrumentedTest.java",
   "8": "gradlew",
@@ -13,5 +13,7 @@
   "11": "0/app-release.dm",
   "12": "1/app-release.dm",
   "13": "build.gradle",
-  "14": "settings.gradle"
+  "14": "settings.gradle",
+  "15": "install.sh",
+  "16": "pre-commit"
 }
