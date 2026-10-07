@@ -1,4 +1,4 @@
-package org.minimarex.terminal;
+package com.eurobuddha.terminal;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("org.minimarex.terminal", appContext.getPackageName());
+        assertEquals("com.eurobuddha.terminal", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package org.minimarex.terminal;
+package com.eurobuddha.terminal;
 
 import org.junit.Test;
 

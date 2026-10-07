@@ -1,4 +1,4 @@
-package org.minimarex.terminal.receiver;
+package com.eurobuddha.terminal.receiver;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package org.minimarex.terminal;
+package com.eurobuddha.terminal;
 
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -14,9 +14,9 @@ import androidx.viewpager.widget.ViewPager;
 import com.google.android.material.tabs.TabLayout;
 
 import org.json.JSONObject;
-import org.minimarex.minimaapi.MinimaAPI;
-import org.minimarex.minimaapi.MinimaAPIListener;
-import org.minimarex.minimaapi.MinimaAPILogger;
+import com.eurobuddha.minimaapi.MinimaAPI;
+import com.eurobuddha.minimaapi.MinimaAPIListener;
+import com.eurobuddha.minimaapi.MinimaAPILogger;
 
 /**
  * Minima Terminal — a two-tab window onto the on-device Minima Core node.

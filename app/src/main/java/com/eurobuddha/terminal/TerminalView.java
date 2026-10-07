@@ -1,4 +1,4 @@
-package org.minimarex.terminal;
+package com.eurobuddha.terminal;
 
 import android.app.Activity;
 import android.graphics.Typeface;
@@ -12,8 +12,8 @@ import android.widget.TextView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.minimarex.minimaapi.MinimaAPI;
-import org.minimarex.minimaapi.MinimaAPIListener;
+import com.eurobuddha.minimaapi.MinimaAPI;
+import com.eurobuddha.minimaapi.MinimaAPIListener;
 
 /**
  * The Terminal tab: a monospace transcript plus an input row. Each entered

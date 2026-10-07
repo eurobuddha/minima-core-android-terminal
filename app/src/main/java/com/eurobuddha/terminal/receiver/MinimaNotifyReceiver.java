@@ -1,4 +1,4 @@
-package org.minimarex.terminal.receiver;
+package com.eurobuddha.terminal.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -6,9 +6,9 @@ import android.content.Intent;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.minimarex.minimaapi.MinimaAPI;
-import org.minimarex.minimaapi.MinimaAPILogger;
-import org.minimarex.minimaapi.MinimaAPIMessages;
+import com.eurobuddha.minimaapi.MinimaAPI;
+import com.eurobuddha.minimaapi.MinimaAPILogger;
+import com.eurobuddha.minimaapi.MinimaAPIMessages;
 
 import java.util.Objects;
 

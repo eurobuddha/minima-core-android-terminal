@@ -1,4 +1,4 @@
-package org.minimarex.terminal;
+package com.eurobuddha.terminal;
 
 import android.app.Activity;
 import android.widget.TextView;
@@ -6,8 +6,8 @@ import android.widget.TextView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.minimarex.minimaapi.MinimaAPILogger;
-import org.minimarex.terminal.receiver.ReceiverDB;
+import com.eurobuddha.minimaapi.MinimaAPILogger;
+import com.eurobuddha.terminal.receiver.ReceiverDB;
 
 /**
  * The Logs tab: renders the node's MINIMALOG lines that MinimaNotifyReceiver
