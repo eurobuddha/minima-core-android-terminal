@@ -11,8 +11,8 @@ android {
         minSdk 28
         targetSdk 35
         // 1.1/vc2 is taken by the upstream (Spartacus-signed) refresh already in PandaApps
-        versionCode 8
-        versionName "1.3.4"
+        versionCode 9
+        versionName "1.3.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
